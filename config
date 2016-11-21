@@ -214,7 +214,7 @@ exec --no-startup-id xset -b
 
 # Application
 mode "Apps"{
-     bindsym e exec --no-startup-id emacs; mode "default"
+     bindsym e exec --no-startup-id emacsa "" -c; mode "default"
      bindsym i exec --no-startup-id firefox; mode "default"
      bindsym n exec --no-startup-id nautilus; mode "default"
      bindsym c exec --no-startup-id gnome-calculator; mode "default"
